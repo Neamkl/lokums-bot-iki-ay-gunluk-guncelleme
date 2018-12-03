@@ -1,0 +1,1 @@
+# lokums-bot-iki-ay-gunluk-guncelleme
