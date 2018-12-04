@@ -134,6 +134,16 @@ client.on('message', msg => {
   }
 })
 
+
+
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === 's!site') {
+    msg.reply('[Tıkla](https://lokumsbot.tr.gg/)');
+  }
+})
+
+
+
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'civciv') {
     msg.reply('https://cdn.discordapp.com/attachments/496730252655984650/500726459518812160/image0.jpg :)');
