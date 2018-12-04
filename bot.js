@@ -463,21 +463,27 @@ client.on("ready", async message => {
     
       "Stronger Discord Bot",
 	  
-	  "Bot 7/24'tür",
+      "Bot 7/24'tür",
 	  
-	  "2 Ay Günlük Güzel Komutlar",
+      "2 Ay Günlük Güzel Komutlar",
 	  
-	  "s!sunucubilgi  s!hesapla  s!atatürkçerçeve s!atatürk  s!dolar s!ping s!bilgi",
+      "s!sunucubilgi  s!hesapla s!atatürk  s!dolar s!ping s!bilgi",
 	  
-	  "s!oynat s!geç s!kapat s!ses s!durdur s!devam s!kuyruk ",
+      "s!oynat s!geç s!kapat s!ses s!durdur s!devam s!kuyruk ",
 	  
-	  "s!winner s!koş s!tr s!aze s!slots s!dcnitro s!efkar-vs s!csgo s!8ball s!bravery",
+      "s!winner s!koş s!tr s!aze s!slots s!dcnitro s!efkar-vs s!csgo s!8ball s!bravery",
 	  
-	  "Bisküvi Benim En Yakın Arkadaşımdır!",
+      "Bisküvi Benim En Yakın Arkadaşımdır!",
 	  
-	  "Bisküviye Yapılan Kötülük Bana Yapmış Sayılır",
+      "Bisküviye Yapılan Kötülük Bana Yapmış Sayılır",
 	  
-	  "Bisküviyi Destek Sunucumdan Davet Edebilirsiniz",
+      "s!davet Yazarak Beni Ekle ;)",
+	  
+      "Destek Sunucuma Gelerek Bedava bot Sahibi Olabilirsiniz",  
+	  
+      "s!desteksunucu",  
+	  
+      "Bisküviyi Destek Sunucumdan Davet Edebilirsiniz",
 
       ` ${client.guilds.size} Sunucu İçin | Teşekkürler..`,
     
