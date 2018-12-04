@@ -507,7 +507,7 @@ client.on("ready", async message => {
 
       var random = Math.floor(Math.random()*(Activity.length-0+1)+0);
 
-      client.user.setActivity(Activity[random], { type: 'STREAMING', "https://www.twitch.tv/salegendforty});
+      client.user.setActivity(Activity[random], { type: 'STREAMING'});
       }, 6 * 15000);
 })
 const { Client, Util } = require('discord.js');
