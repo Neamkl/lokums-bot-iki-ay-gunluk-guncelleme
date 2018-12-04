@@ -507,8 +507,8 @@ client.on("ready", async message => {
 
       var random = Math.floor(Math.random()*(Activity.length-0+1)+0);
 
-      client.user.setActivity(Activity[random], { type: 'WATCHING' });
-      }, 6 * 3000);
+      client.user.setActivity(Activity[random], { type: 'STREAMING',url "https://twitch.tv/salegendforty });
+      }, 6 * 15000);
 })
 const { Client, Util } = require('discord.js');
 const { TOKEN, PREFIX, GOOGLE_API_KEY } = require('./config');
