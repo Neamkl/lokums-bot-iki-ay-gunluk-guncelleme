@@ -7,7 +7,7 @@ const moment = require('moment');
 require('./util/eventLoader')(client);
 
 var prefix = ayarlar.prefix;
-let owner = "457573545049063425`, 461991104569671697";
+let owner = "464845806604910592`, 464845806604910592";
 
 const log = message => {
   console.log(`[${moment().format('YYYY-MM-DD HH:mm:ss')}] ${message}`);
