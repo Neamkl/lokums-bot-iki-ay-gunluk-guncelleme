@@ -138,7 +138,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 's!site') {
-    msg.reply('[Tıkla](https://lokumsbot.tr.gg/)');
+    msg.reply('(https://lokumsbot.tr');
   }
 })
 
