@@ -475,39 +475,39 @@ client.on("ready", async message => {
   var Activity = [
       
 
-      "s!site https://lokumsbot.tr.gg Yapımcım =  ?SaFIRTINA?",
+      "s!site Yapımcım =  ?SaFIRTINA?",
     
-      "https://lokumsbot.tr.gg Sunucunuza Almayı Unutmayın",
+      "s!site Sunucunuza Almayı Unutmayın",
       
       "|>>> Türkiye <<<|",
 
-      "https://lokumsbot.tr.gg s!yardım || s!davet || s!giriş-çıkış || s!sayaç",
+      "s!site || s!yardım || s!davet || s!giriş-çıkış || s!sayaç",
     
-      "Stronger Discord Bot https://lokumsbot.tr.gg",
+      "Stronger Discord Bot",
 	  
-      "Bot 7/24'tür https://lokumsbot.tr.gg",
+      "s!site Bot 7/24'tür",
 	  
-      "2 Ay Günlük Güzel Komutlar https://lokumsbot.tr.gg/",
+      "s!site 2 Ay Günlük Güzel Komutlar https://lokumsbot.tr.gg/",
 	  
-      "s!sunucubilgi  s!hesapla s!atatürk  s!dolar s!ping s!bilgi https://lokumsbot.tr.gg",
+      "s!site || s!sunucubilgi  s!hesapla s!atatürk  s!dolar s!ping s!bilg",
 	  
-      "s!oynat s!geç s!kapat s!ses s!durdur s!devam s!kuyruk https://lokumsbot.tr.gg",
+      "s!site || s!oynat s!geç s!kapat s!ses s!durdur s!devam s!kuyruk",
 	  
-      "s!winner s!koş s!tr s!aze s!slots s!dcnitro s!efkar-vs s!csgo s!8ball s!bravery https://lokumsbot.tr.gg",
+      "s!site || s!winner s!koş s!tr s!aze s!slots s!dcnitro s!efkar-vs s!csgo s!8ball s!bravery ",
 	  
-      "Bisküvi Benim En Yakın Arkadaşımdır! https://lokumsbot.tr.gg",
+      "s!site || Bisküvi Benim En Yakın Arkadaşımdır!",
 	  
-      "Bisküviye Yapılan Kötülük Bana Yapmış Sayılır https://lokumsbot.tr.gg",
+      "Bisküviye Yapılan Kötülük Bana Yapmış Sayılır",
 	  
-      "s!davet Yazarak Beni Ekle ;) https://lokumsbot.tr.gg",
+      "s!site || s!davet Yazarak Beni Ekle ;)",
 	  
-      "https://lokumsbot.tr.gg"
+      "s!site Çok Önemli Botun Sitesi çünkü"
 	  
-      "Destek Sunucuma Gelerek Bedava bot Sahibi Olabilirsiniz https://lokumsbot.tr.gg",  
+      "Destek Sunucuma Gelerek Bedava bot Sahibi Olabilirsiniz",  
 	  
-      "s!desteksunucu  s!site https://lokumsbot.tr.gg",  
+      "s!desteksunucu  s!site",  
 	  
-      "Bisküviyi Destek Sunucumdan Davet Edebilirsiniz https://lokumsbot.tr.gg",
+      "Bisküviyi Destek Sunucumdan Davet Edebilirsiniz",
 
       ` ${client.guilds.size} Sunucu İçin | Teşekkürler..`,
     
