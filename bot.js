@@ -503,9 +503,9 @@ client.on("ready", async message => {
 	  
       "https://lokumsbot.tr.gg"
 	  
-      "s!site, Destek Sunucuma Gelerek Bedava bot Sahibi Olabilirsiniz https://lokumsbot.tr.gg",  
+      "s!site Destek Sunucuma Gelerek Bedava bot Sahibi Olabilirsiniz https://lokumsbot.tr.gg",  
 	  
-      "s!desteksunucu , s!site https://lokumsbot.tr.gg",  
+      "s!desteksunucu  s!site https://lokumsbot.tr.gg",  
 	  
       "Bisküviyi Destek Sunucumdan Davet Edebilirsiniz https://lokumsbot.tr.gg",
 
