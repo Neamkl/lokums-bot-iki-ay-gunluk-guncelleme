@@ -116,6 +116,18 @@ client.on('message', msg => {
   }
 });
 
+
+
+
+client.on('message', msg => {
+  if (msg.content.toLowerCase() === 's!desteksunucu') {
+    msg.reply('İşte Destek Sunucum **https://discord.gg/Db7c5k3** NOT(Eğer Mesaj Gelmediyse ?SaFIRTINA?#0892"YE BİLDİRİN)');
+  }
+});
+
+
+
+
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'selamın aleyküm') {
     msg.reply('Ve Aleyküm selam, Canım İyi Günler :)');
