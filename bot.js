@@ -475,37 +475,39 @@ client.on("ready", async message => {
   var Activity = [
       
 
-      "Yapımcım =  ?SaFIRTINA?",
+      "s!site https://lokumsbot.tr.gg Yapımcım =  ?SaFIRTINA?",
     
-      "Sunucunuza Almayı Unutmayın",
+      "https://lokumsbot.tr.gg Sunucunuza Almayı Unutmayın",
       
       "|>>> Türkiye <<<|",
 
-      "s!yardım || s!davet || s!giriş-çıkış || s!sayaç",
+      "https://lokumsbot.tr.gg s!yardım || s!davet || s!giriş-çıkış || s!sayaç",
     
-      "Stronger Discord Bot",
+      "Stronger Discord Bot https://lokumsbot.tr.gg",
 	  
-      "Bot 7/24'tür",
+      "Bot 7/24'tür https://lokumsbot.tr.gg",
 	  
-      "2 Ay Günlük Güzel Komutlar",
+      "2 Ay Günlük Güzel Komutlar https://lokumsbot.tr.gg/",
 	  
-      "s!sunucubilgi  s!hesapla s!atatürk  s!dolar s!ping s!bilgi",
+      "s!site s!sunucubilgi  s!hesapla s!atatürk  s!dolar s!ping s!bilgi https://lokumsbot.tr.gg",
 	  
-      "s!oynat s!geç s!kapat s!ses s!durdur s!devam s!kuyruk ",
+      "s!oynat s!geç s!kapat s!ses s!durdur s!devam s!kuyruk https://lokumsbot.tr.gg",
 	  
-      "s!winner s!koş s!tr s!aze s!slots s!dcnitro s!efkar-vs s!csgo s!8ball s!bravery",
+      "s!site s!winner s!koş s!tr s!aze s!slots s!dcnitro s!efkar-vs s!csgo s!8ball s!bravery https://lokumsbot.tr.gg",
 	  
-      "Bisküvi Benim En Yakın Arkadaşımdır!",
+      "Bisküvi Benim En Yakın Arkadaşımdır! https://lokumsbot.tr.gg",
 	  
-      "Bisküviye Yapılan Kötülük Bana Yapmış Sayılır",
+      "Bisküviye Yapılan Kötülük Bana Yapmış Sayılır https://lokumsbot.tr.gg",
 	  
-      "s!davet Yazarak Beni Ekle ;)",
+      "s!davet Yazarak Beni Ekle ;) https://lokumsbot.tr.gg",
 	  
-      "Destek Sunucuma Gelerek Bedava bot Sahibi Olabilirsiniz",  
+      "https://lokumsbot.tr.gg"
 	  
-      "s!desteksunucu",  
+      "s!site, Destek Sunucuma Gelerek Bedava bot Sahibi Olabilirsiniz https://lokumsbot.tr.gg",  
 	  
-      "Bisküviyi Destek Sunucumdan Davet Edebilirsiniz",
+      "s!desteksunucu , s!site https://lokumsbot.tr.gg",  
+	  
+      "Bisküviyi Destek Sunucumdan Davet Edebilirsiniz https://lokumsbot.tr.gg",
 
       ` ${client.guilds.size} Sunucu İçin | Teşekkürler..`,
     
