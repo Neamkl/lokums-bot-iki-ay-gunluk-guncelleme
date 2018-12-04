@@ -502,9 +502,7 @@ client.on("ready", async message => {
       "s!site || s!davet Yazarak Beni Ekle ;)",
 	  
       "s!site Çok Önemli Botun Sitesi çünkü"
-	  
-      "Destek Sunucuma Gelerek Bedava bot Sahibi Olabilirsiniz",  
-	  
+	    
       "s!desteksunucu  s!site",  
 	  
       "Bisküviyi Destek Sunucumdan Davet Edebilirsiniz",
