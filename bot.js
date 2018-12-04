@@ -493,7 +493,7 @@ client.on("ready", async message => {
 	  
       "s!oynat s!geç s!kapat s!ses s!durdur s!devam s!kuyruk https://lokumsbot.tr.gg",
 	  
-      "s!site s!winner s!koş s!tr s!aze s!slots s!dcnitro s!efkar-vs s!csgo s!8ball s!bravery https://lokumsbot.tr.gg",
+      "s!winner s!koş s!tr s!aze s!slots s!dcnitro s!efkar-vs s!csgo s!8ball s!bravery https://lokumsbot.tr.gg",
 	  
       "Bisküvi Benim En Yakın Arkadaşımdır! https://lokumsbot.tr.gg",
 	  
