@@ -489,7 +489,7 @@ client.on("ready", async message => {
 	  
       "2 Ay Günlük Güzel Komutlar https://lokumsbot.tr.gg/",
 	  
-      "s!site s!sunucubilgi  s!hesapla s!atatürk  s!dolar s!ping s!bilgi https://lokumsbot.tr.gg",
+      "s!sunucubilgi  s!hesapla s!atatürk  s!dolar s!ping s!bilgi https://lokumsbot.tr.gg",
 	  
       "s!oynat s!geç s!kapat s!ses s!durdur s!devam s!kuyruk https://lokumsbot.tr.gg",
 	  
