@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const loglar = require('../ayarlar.json');
 
-var prefix = loglar.prefix;
+var prefix = ayarlar.prefix;
 
 exports.run = (client, message, params) => {
   if (!params[0]) {
