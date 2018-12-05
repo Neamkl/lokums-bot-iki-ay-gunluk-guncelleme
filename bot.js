@@ -481,13 +481,11 @@ client.on("ready", async message => {
       
       "|>>> Türkiye <<<|",
 
-      "s!site || s!yardım || s!davet || s!giriş-çıkış || s!sayaç",
+      "s!yardım || s!davet || s!giriş-çıkış || s!sayaç",
     
       "Stronger Discord Bot",
 	  
-      "s!site Bot 7/24'tür",
-	  
-      "s!site 2 Ay Günlük Güzel Komutlar https://lokumsbot.tr.gg/",
+      "Bot 7/24'tür",
 	  
       "s!site || s!sunucubilgi  s!hesapla s!atatürk  s!dolar s!ping s!bilg",
 	  
@@ -502,9 +500,7 @@ client.on("ready", async message => {
       "s!site || s!davet Yazarak Beni Ekle ;)",
 	  
       "s!site Çok Önemli Botun Sitesi çünkü"
-	    
-      "s!desteksunucu  s!site",  
-	  
+	    	  
       "Bisküviyi Destek Sunucumdan Davet Edebilirsiniz",
 
       ` ${client.guilds.size} Sunucu İçin | Teşekkürler..`,
