@@ -138,7 +138,7 @@ client.on('message', msg => {
 
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 's!site') {
-    msg.reply('(https://lokumsbot.tr');
+    msg.reply('**https://lokumsbot.tr.gg/**');
   }
 })
 
@@ -514,7 +514,7 @@ client.on("ready", async message => {
       var random = Math.floor(Math.random()*(Activity.length-0+1)+0);
 
       client.user.setActivity(Activity[random], { type: 'WATCHING' });
-      }, 6 * 12000);
+      }, 6 * 20000);
 })
 const { Client, Util } = require('discord.js');
 const { TOKEN, PREFIX, GOOGLE_API_KEY } = require('./config');
