@@ -475,9 +475,9 @@ client.on("ready", async message => {
   var Activity = [
       
 
-      "s!site Yapımcım =  ?SaFIRTINA?",
+      "Yapımcım =  ?SaFIRTINA?",
     
-      "s!site Sunucunuza Almayı Unutmayın",
+      "Sunucunuza Almayı Unutmayın",
       
       "|>>> Türkiye <<<|",
 
@@ -487,20 +487,20 @@ client.on("ready", async message => {
 	  
       "Bot 7/24'tür",
 	  
-      "s!site || s!sunucubilgi  s!hesapla s!atatürk  s!dolar s!ping s!bilg",
+      "s!site Yazarak Sitemize Bakabilirsin",  
 	  
-      "s!site || s!oynat s!geç s!kapat s!ses s!durdur s!devam s!kuyruk",
+      "2 Ay Günlük Güzel Komutlar",
 	  
-      "s!site || s!winner s!koş s!tr s!aze s!slots s!dcnitro s!efkar-vs s!csgo s!8ball s!bravery ",
+      "s!sunucubilgi  s!hesapla  s!atatürkçerçeve s!atatürk  s!dolar s!ping s!bilgi",
 	  
-      "s!site || Bisküvi Benim En Yakın Arkadaşımdır!",
+      "s!oynat s!geç s!kapat s!ses s!durdur s!devam s!kuyruk ",
+	  
+      "s!winner s!koş s!tr s!aze s!slots s!dcnitro s!efkar-vs s!csgo s!8ball s!bravery",
+	  
+      "Bisküvi Benim En Yakın Arkadaşımdır!",
 	  
       "Bisküviye Yapılan Kötülük Bana Yapmış Sayılır",
 	  
-      "s!site || s!davet Yazarak Beni Ekle ;)",
-	  
-      "s!site Çok Önemli Botun Sitesi çünkü"
-	    	  
       "Bisküviyi Destek Sunucumdan Davet Edebilirsiniz",
 
       ` ${client.guilds.size} Sunucu İçin | Teşekkürler..`,
@@ -513,8 +513,8 @@ client.on("ready", async message => {
 
       var random = Math.floor(Math.random()*(Activity.length-0+1)+0);
 
-      client.user.setActivity(Activity[random], { type: 'WATCHING'});
-      }, 6 * 15000);
+      client.user.setActivity(Activity[random], { type: 'WATCHING' });
+      }, 6 * 12000);
 })
 const { Client, Util } = require('discord.js');
 const { TOKEN, PREFIX, GOOGLE_API_KEY } = require('./config');
