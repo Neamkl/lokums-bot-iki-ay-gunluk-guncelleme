@@ -266,9 +266,9 @@ if (message.content.toLowerCase().startsWith(prefix + `destek-talebi-aç`)) {
 if (message.content.toLowerCase().startsWith(prefix + `destek-talebi-kapat`)) {
     if (!message.channel.name.startsWith(`ticket-`)) return message.channel.send(`Bu komutu kullanamazsın ticket kanalında olman gerekir. `);
 
-    message.channel.send(`Destek Kanalını kapatmaya emin misin? kapatmak için **d!kapat** yazman yeterli. `)
+    message.channel.send(`Destek Kanalını kapatmaya emin misin? kapatmak için **s!kapat** yazman yeterli. `)
     .then((m) => {
-      message.channel.awaitMessages(response => response.content === 'd!kapat', {
+      message.channel.awaitMessages(response => response.content === 's!kapat', {
         max: 1,
         time: 10000,
         errors: ['time'],
@@ -857,7 +857,7 @@ fs.writeFile('./xp.json', JSON.stringify(points), (err) => {
 
   if (message.content.toLowerCase() === prefix + 'profil' || message.content.toLowerCase() === prefix + 'profile') {
 const level = new Discord.RichEmbed().setTitle(`${user.username}`).setDescription(`**Seviye:** ${userData.level}\n**EP (Error Puan):** ${userData.points}`).setColor("RANDOM").setFooter(``).setThumbnail(user.avatarURL)
-message.channel.send(`📝 **| ${user.username} Adlı Kullanıcının Profili Burada!** <509983808313884674:kusdans:>`)
+message.channel.send(`📝 **| ${user.username} Adlı Kullanıcının Profili Burada!** <a:kusdans:509983808313884674>`)
 message.channel.send(level)
   }
 });
