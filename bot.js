@@ -848,7 +848,7 @@ client.on("message", async message => {
   if (curLevel > userData.level) {
     userData.level = curLevel;
         var user = message.mentions.users.first() || message.author;
-message.channel.send(`🆙 **| ${user.username}   Bravo Level Atladın!** <a:yuksel:509983808313884674>`)
+message.channel.send(`🆙 **| ${user.username}   Bravo Level Atladın!** :up:`)
     }
 
 fs.writeFile('./xp.json', JSON.stringify(points), (err) => {
@@ -857,7 +857,7 @@ fs.writeFile('./xp.json', JSON.stringify(points), (err) => {
 
   if (message.content.toLowerCase() === prefix + 'profil' || message.content.toLowerCase() === prefix + 'profile') {
 const level = new Discord.RichEmbed().setTitle(`${user.username}`).setDescription(`**Seviye:** ${userData.level}\n**EP (Error Puan):** ${userData.points}`).setColor("RANDOM").setFooter(``).setThumbnail(user.avatarURL)
-message.channel.send(`📝 **| ${user.username} Adlı Kullanıcının Profili Burada!** <a:evett:509983808313884674>`)
+message.channel.send(`📝 **| ${user.username} Adlı Kullanıcının Profili Burada!** :cool:`)
 message.channel.send(level)
   }
 });
