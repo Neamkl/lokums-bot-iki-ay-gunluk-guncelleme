@@ -802,7 +802,7 @@ client.on("message", message => {
         dmchannel.sendMessage("", {embed: {
             color: 3447003,
             title: `Gönderen: ${message.author.tag}`,
-            description: `Bota Özelden Gönderilen DM: ${message.content}`
+            description: `Bota Özelden Gönderilen DM: \n${message.content}`
         }})
     }
 });
