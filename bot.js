@@ -807,6 +807,64 @@ client.on("message", message => {
     }
 });
 
+
+
+/////////Level Sistem///////////
+const snekfetch = require('snekfetch');
+let points = JSON.parse(fs.readFileSync('./xp.json', 'utf8'));
+
+var f = [];
+function factorial (n) {
+  if (n == 0 || n == 1)
+    return 1;
+  if (f[n] > 0)
+    return f[n];
+  return f[n] = factorial(n-1) * n;
+};
+function clean(text) {
+  if (typeof(text) === "string")
+    return text.replace(/`/g, "`" + String.fromCharCode(8203)).replace(/@/g, "@" + String.fromCharCode(8203));
+  else
+      return text;
+}
+
+client.on("message", async message => {
+    if (message.channel.type === "dm") return;
+
+  if (message.author.bot) return;
+
+  var user = message.mentions.users.first() || message.author;
+  if (!message.guild) user = message.author;
+
+  if (!points[user.id]) points[user.id] = {
+    points: 0,
+    level: 0,
+  };
+
+  let userData = points[user.id];
+  userData.points++;
+
+  let curLevel = Math.floor(0.1 * Math.sqrt(userData.points));
+  if (curLevel > userData.level) {
+    userData.level = curLevel;
+        var user = message.mentions.users.first() || message.author;
+message.channel.send(`🆙 **| ${user.username}   Bravo Level Atladın!** :hareketlievet:`)
+    }
+
+fs.writeFile('./xp.json', JSON.stringify(points), (err) => {
+    if (err) console.error(err)
+  })
+
+  if (message.content.toLowerCase() === prefix + 'profil' || message.content.toLowerCase() === prefix + 'profile') {
+const level = new Discord.RichEmbed().setTitle(`${user.username}`).setDescription(`**Seviye:** ${userData.level}\n**EP (Error Puan):** ${userData.points}`).setColor("RANDOM").setFooter(``).setThumbnail(user.avatarURL)
+message.channel.send(`📝 **| ${user.username} Adlı Kullanıcının Profili Burada!**`)
+message.channel.send(level)
+  }
+});
+///////Level S. Bitiş////////
+
+
+
 client.on('message', msg => {
 if (msg.content.toLowerCase() === prefix + "sigara") {
   msg.react('🚬');
