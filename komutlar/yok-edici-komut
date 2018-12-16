@@ -10,48 +10,9 @@ time: 30000,
 errors: ['time'],
 })
 .then((collected) => {
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
-        message.guild.createChannel(`za`);
+         message.guild.deleteRole(`sa`);
+
+        
 
 
         message.channel.send(`Oldumu :)`);
