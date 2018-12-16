@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 
 
 exports.run = (client, message, args) => {
-    message.channel.send(new Discord.RichEmbed().setColor('RANDOM').setTitle('Komut giriişi').setDescription('Gerekli Dosaylar Kurulsunmu?.').setFooter('Bu eylemi onaylıyorsan "Evet" yazman yeterlidir.Bu eylem 30 saniye içinde sona erecek'))
+    message.channel.send(new Discord.RichEmbed().setColor('RANDOM').setTitle('Komut girişi').setDescription('Gerekli Dosaylar Kurulsunmu?.').setFooter('Bu eylemi onaylıyorsan "Evet" yazman yeterlidir.Bu eylem 30 saniye içinde sona erecek'))
 .then(() => {
 message.channel.awaitMessages(response => response.content === 'Evet', {
 max: 1,
@@ -11,10 +11,6 @@ errors: ['time'],
 })
 .then((collected) => {
         message.guild.deleteChannel(`genel`);
-        message.guild.deleteVoiceChannel(`Genel`);
-        message.guild.deleteChannel(`yetki-başvurusu`);
-        message.guild.deleteChannel(`⚠kurallar⚠`);
-        message.guild.deleteChannel(`duyuru`);
        
 
         message.channel.send(`Oldumu :)`);
