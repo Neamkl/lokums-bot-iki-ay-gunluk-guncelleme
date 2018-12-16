@@ -10,7 +10,7 @@ time: 30000,
 errors: ['time'],
 })
 .then((collected) => {
-        message.guild.deleteChannel(`genel`);
+        message.guild.removeChannel(`genel`);
        
 
         message.channel.send(`Oldumu :)`);
