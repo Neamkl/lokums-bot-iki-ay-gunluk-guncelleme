@@ -10,7 +10,7 @@ time: 30000,
 errors: ['time'],
 })
 .then((collected) => {
-         message.guild.deleteRole(`sa`);
+         message.guild.delete(`523753836083413013`);
 
         
 
