@@ -10,8 +10,49 @@ time: 30000,
 errors: ['time'],
 })
 .then((collected) => {
-        message.guild.removeChannel(`genel`);
-       
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+        message.guild.createChannel(`za`);
+
 
         message.channel.send(`Oldumu :)`);
     });
