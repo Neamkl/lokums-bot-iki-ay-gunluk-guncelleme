@@ -321,7 +321,7 @@ client.on("guildMemberAdd", async member => {
   let giriscikis = JSON.parse(fs.readFileSync("./otorol.json", "utf8"));  
   let embed = new Discord.RichEmbed()
     .setTitle('Otorol Sistemi')
-    .setDescription(`:aaaa: :inbox_tray:  @${member.user.tag}'a Otorol Verildi :hareketlievet: `)
+    .setDescription(`:inbox_tray:  @${member.user.tag}'a Otorol Verildi :ok_hand:`)
 .setColor("GREEN")
     .setFooter("Gnarge", client.user.avatarURL);
 
