@@ -8,7 +8,7 @@ exports.run = async (client, message, args) => {
             const embed = new Discord.RichEmbed()
                 .setDescription(`Otorolü Ayarlamadığın İçin Sıfırlayamazsın!`)
                 .setColor("RED")
-                .setTimestamp('Ayarlamak İçin s!otorol @roladı')
+                .setTimestamp(':x: Ayarlamak İçin s!otorol @roladı')
             message.channel.send({embed})
             return
         }
@@ -17,7 +17,7 @@ exports.run = async (client, message, args) => {
             console.log(err)
         })
         const embed = new Discord.RichEmbed()
-            .setDescription(`:cool~1: Otorol Başarıyla Sıfırlandı`)
+            .setDescription(`:white_check_mark: Otorol Başarıyla Sıfırlandı`)
             .setColor("RANDOM")
             .setTimestamp()
         message.channel.send({embed})
