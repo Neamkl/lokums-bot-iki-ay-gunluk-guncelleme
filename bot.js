@@ -442,36 +442,19 @@ client.on('message', async message => {
         CONNECT: true,
     });
 })
-	      
-  message.guild.createChannel(`💬》Müzik #1`, "voice")
-  .then(channel =>
-    channel.setParent(message.guild.channels.find(channel => channel.name === "|▬▬|Müzik Odaları|▬▬|")))
-  .then(c => {
-    let role = message.guild.roles.find("name", "@everyone");
-    c.overwritePermissions(role, {
-        CONNECT: true,
-    });
-})
-	      
-  message.guild.createChannel(`💬》Müzik #2`, "voice")
-  .then(channel =>
-    channel.setParent(message.guild.channels.find(channel => channel.name === "|▬▬|Müzik Odaları|▬▬|")))
-  .then(c => {
-    let role = message.guild.roles.find("name", "@everyone");
-    c.overwritePermissions(role, {
-        CONNECT: true,
-    });
-})	
-	      
-  message.guild.createChannel(`💬》Müzik #3`, "voice")
-  .then(channel =>
-    channel.setParent(message.guild.channels.find(channel => channel.name === "|▬▬|Müzik Odaları|▬▬|")))
-  .then(c => {
-    let role = message.guild.roles.find("name", "@everyone");
-    c.overwritePermissions(role, {
-        CONNECT: true,
-    });
-})	      
+ 
+message.guild.createChannel('|▬▬|Müzik Odaları|▬▬|', 'category', [{
+  id: message.guild.id,
+}]);
+
+message.guild.createChannel(`🎮》Müzik#1`, 'voice')
+.then(channel =>
+ channel.setParent(message.guild.channels.find(channel => channel.name === "|▬▬|OYUN ODALARI|▬▬|")))
+ message.guild.createChannel(`🎮》Müzik#2`, 'voice')
+ .then(channel =>
+  channel.setParent(message.guild.channels.find(channel => channel.name === "|▬▬|OYUN ODALARI|▬▬|")))
+ message.guild.createChannel(`🎮》Müzik#3`, 'voice')
+.then(channel =>
 	      
 message.guild.createChannel('|▬▬|OYUN ODALARI|▬▬|', 'category', [{
   id: message.guild.id,
