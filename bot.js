@@ -411,11 +411,31 @@ client.on('message', async message => {
         });
     })
 
-    message.guild.createChannel('|▬▬|SES KANALLARI|▬▬|', 'category', [{
+    message.guild.createChannel('|▬▬|Müzik Odası|▬▬|', 'category', [{
       id: message.guild.id,
     }]);
 
-    message.guild.createChannel(`🏆》Yönetici Odası`, "voice")
+    message.guild.createChannel(`🏆》Müzik#1`, "voice")
+    message.guild.createChannel(`🏆》Müzik#2`, "voice")
+    message.guild.createChannel(`🏆》Müzik#3`, "voice")	      
+    .then(channel =>
+      channel.setParent(message.guild.channels.find(channel => channel.name === "|▬▬|Müzik Odası|▬▬|")))
+    .then(c => {
+      let role = message.guild.roles.find("name", "@everyone");
+      let role2 = message.guild.roles.find("name", "Kurucu");
+      let role3 = message.guild.roles.find("name", "Yönetici");
+      c.overwritePermissions(role, {
+          CONNECT: true,
+      });
+      c.overwritePermissions(role2, {
+          CONNECT: true,
+      });
+      c.overwritePermissions(role3, {
+          CONNECT: true,
+      });
+  })
+
+ message.guild.createChannel(`🏆》Yönetici Odası`, "voice")
     .then(channel =>
       channel.setParent(message.guild.channels.find(channel => channel.name === "|▬▬|SES KANALLARI|▬▬|")))
     .then(c => {
@@ -432,28 +452,8 @@ client.on('message', async message => {
           CONNECT: true,
       });
   })
-
-  message.guild.createChannel(`💬》Sohbet Odası`, "voice")
-  .then(channel =>
-    channel.setParent(message.guild.channels.find(channel => channel.name === "|▬▬|SES KANALLARI|▬▬|")))
-  .then(c => {
-    let role = message.guild.roles.find("name", "@everyone");
-    c.overwritePermissions(role, {
-        CONNECT: true,
-    });
-})
- message.guild.createChannel(`Müzik #1`, "voice")
-    message.guild.createChannel(`Müzik #2`, "voice")
-    message.guild.createChannel(`Müzik#3`, "voice").then(c => {
-        let role = message.guild.roles.find("name", "@everyone");
-        c.overwritePermissions(role, {
-            CONNECT: false,
-        });
-    }) 
-message.guild.createChannel('|▬▬|Müzik Odaları|▬▬|', 'category', [{
-  id: message.guild.id,
-}]);
 	      
+
 message.guild.createChannel('|▬▬|OYUN ODALARI|▬▬|', 'category', [{
   id: message.guild.id,
 }]);
