@@ -126,7 +126,32 @@ client.on('message', msg => {
 });
 
 
+client.on("message", msg => {
+    const uyarıembed = new Discord.RichEmbed()
+      .setColor(0x00AE86)
+      .setDescription(":x: " + msg.author + "Reklam Yapmayı Kes :x:  ")
 
+const dmembed = new Discord.RichEmbed()
+    .setTitle("Sunucunda " + msg.author.tag + " reklam yapıyor!")
+      .setColor(0x00AE86)
+      .setDescription("Sunucunda Reklam Yapıyor Gerekli İşlemleri Yap!")
+    .addField("Kullanıcının mesajı:", "**" + msg.content + "**")
+
+if (msg.content.toLowerCase().match(/(discord\.gg\/)|www.|https:|.tk|tr.gg|(discordapp\.com\/invite\/)/g) && msg.channel.type === "text" && msg.channel.permissionsFor(msg.guild.member(client.user)).has("MANAGE_MESSAGES")) {
+    if(msg.member.hasPermission('BAN_MEMBERS')){
+    return;
+    } else {
+    msg.delete(30).then(deletedMsg => {
+     deletedMsg.channel.send(uyarıembed)
+     msg.guild.owner.send(dmembed).catch(e => {
+            console.error(e);
+          });
+        }).catch(e => {
+          console.error(e);
+        });
+      };
+      };
+    })
 
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'selamın aleyküm') {
