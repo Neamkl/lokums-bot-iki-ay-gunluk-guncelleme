@@ -416,8 +416,7 @@ client.on('message', async message => {
     }]);
 
     message.guild.createChannel(`🏆》Müzik#1`, "voice")
-    message.guild.createChannel(`🏆》Müzik#2`, "voice")
-    message.guild.createChannel(`🏆》Müzik#3`, "voice")	      
+    message.guild.createChannel(`🏆》Müzik#2`, "voice")      
     .then(channel =>
       channel.setParent(message.guild.channels.find(channel => channel.name === "|▬▬|Müzik Odası|▬▬|")))
     .then(c => {
