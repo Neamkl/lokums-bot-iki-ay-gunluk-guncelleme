@@ -442,10 +442,6 @@ client.on('message', async message => {
         CONNECT: true,
     });
 })
- 
-message.guild.createChannel('|▬▬|Müzik Odaları|▬▬|', 'category', [{
-  id: message.guild.id,
-}]);
  message.guild.createChannel(`Müzik #1`, "voice")
     message.guild.createChannel(`Müzik #2`, "voice")
     message.guild.createChannel(`Müzik#3`, "voice").then(c => {
@@ -453,7 +449,10 @@ message.guild.createChannel('|▬▬|Müzik Odaları|▬▬|', 'category', [{
         c.overwritePermissions(role, {
             CONNECT: false,
         });
-    })
+    }) 
+message.guild.createChannel('|▬▬|Müzik Odaları|▬▬|', 'category', [{
+  id: message.guild.id,
+}]);
 	      
 message.guild.createChannel('|▬▬|OYUN ODALARI|▬▬|', 'category', [{
   id: message.guild.id,
