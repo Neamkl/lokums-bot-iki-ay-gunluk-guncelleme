@@ -353,30 +353,30 @@ client.on('message', async message => {
 
 
         
- message.guild.createChannel('「📃」KOLAYSA SİL', 'text', [{
+ message.guild.createChannel('「📃」sss', 'text', [{
   id: message.guild.id,
   deny: ['SEND_MESSAGES']
 }])
 .then(channel =>
  channel.setParent(message.guild.channels.find(channel => channel.name === "|▬▬|ÖNEMLİ KANALLAR|▬▬|")));
- message.guild.createChannel('「🚪」KOLAYSA SİL', 'text', [{
+ message.guild.createChannel('「🚪」ssss', 'text', [{
   id: message.guild.id,
   deny: ['SEND_MESSAGES']
 }])
 .then(channel =>
        channel.setParent(message.guild.channels.find(channel => channel.name === "|▬▬|ÖNEMLİ KANALLAR|▬▬|")));
-       message.guild.createChannel('「✅」KOLAYSA SİL', 'text', [{
+       message.guild.createChannel('「✅」ssss', 'text', [{
         id: message.guild.id,
         deny: ['SEND_MESSAGES']
       }])
 .then(channel =>
              channel.setParent(message.guild.channels.find(channel => channel.name === "|▬▬|ÖNEMLİ KANALLAR|▬▬|")));
-             message.guild.createChannel('「💾」KOLAYSA SİL', 'text', [{
+             message.guild.createChannel('「💾」ssssss', 'text', [{
               id: message.guild.id,
               deny: ['SEND_MESSAGES']
             }])
             .then(channel => channel.setParent(message.guild.channels.find(channel => channel.name === "|▬▬|ÖNEMLİ KANALLAR|▬▬|")));
-            message.guild.createChannel('「📢」KOLAYSA SİL', 'text', [{
+            message.guild.createChannel('「📢」sss', 'text', [{
               id: message.guild.id,
               deny: ['SEND_MESSAGES']
             }])
@@ -389,23 +389,23 @@ client.on('message', async message => {
        id: message.guild.id,
      }]);
              
-      message.guild.createChannel(`「💡」KOLAYSA SİL`, 'text')
+      message.guild.createChannel(`「💡」sssss`, 'text')
      .then(channel =>
       channel.setParent(message.guild.channels.find(channel => channel.name === "|▬▬|GENEL KANALLAR|▬▬|")));
-     message.guild.createChannel(`「👥」KOLAYSA SİL`, 'text')
+     message.guild.createChannel(`「👥」ssss`, 'text')
      .then(channel =>
             channel.setParent(message.guild.channels.find(channel => channel.name === "|▬▬|GENEL KANALLAR|▬▬|")));
-     message.guild.createChannel(`「📷」KOLAYSA SİL`, 'text')
+     message.guild.createChannel(`「📷」sssss`, 'text')
      .then(channel =>
                   channel.setParent(message.guild.channels.find(channel => channel.name === "|▬▬|GENEL KANALLAR|▬▬|")));
-     message.guild.createChannel(`「🤖KOLAYSA SİL`, 'text')
+     message.guild.createChannel(`「🤖Kssss`, 'text')
      .then(channel =>
                   channel.setParent(message.guild.channels.find(channel => channel.name === "|▬▬|GENEL KANALLAR|▬▬|")));
      message.guild.createChannel(`「💬」KOLAYSA SİL`, 'text')
      .then(channel =>
       channel.setParent(message.guild.channels.find(channel => channel.name === "|▬▬|GENEL KANALLAR|▬▬|")));
 
-      message.guild.createChannel(`🏆》KOLAYSA SİL`, "voice")
+      message.guild.createChannel(`🏆》Lsssss`, "voice")
       .then(channel =>
         channel.setParent(message.guild.channels.find(channel => channel.name === "|▬▬|SES KANALLARI|▬▬|")))
       .then(c => {
@@ -443,7 +443,7 @@ client.on('message', async message => {
       });
   })
 
-  message.guild.createChannel(`💬》KOLAYSA SİL`, "voice")
+  message.guild.createChannel(`💬》dghyh`, "voice")
   .then(channel =>
     channel.setParent(message.guild.channels.find(channel => channel.name === "|▬▬|SES KANALLARI|▬▬|")))
   .then(c => {
@@ -460,7 +460,7 @@ message.guild.createChannel('|▬▬|OYUN ODALARI|▬▬|', 'category', [{
 message.guild.createChannel(`🎮》LOL`, 'voice')
 .then(channel =>
  channel.setParent(message.guild.channels.find(channel => channel.name === "|▬▬|OYUN ODALARI|▬▬|")))
- message.guild.createChannel(`🎮》KOLAYSA SİL`, 'voice')
+ message.guild.createChannel(`🎮》L`, 'voice')
  .then(channel =>
   channel.setParent(message.guild.channels.find(channel => channel.name === "|▬▬|OYUN ODALARI|▬▬|")))
  message.guild.createChannel(`🎮》KOLAYSA SİL`, 'voice')
