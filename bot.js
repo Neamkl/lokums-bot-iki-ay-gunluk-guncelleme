@@ -153,11 +153,7 @@ if (msg.content.toLowerCase().match(/(discord\.gg\/)|www.|https:|.tk|tr.gg|.com|
       };
     })
 
-client.on('message', msg => {
-  if (msg.content.toLowerCase() === 'selamın aleyküm') {
-    msg.reply('Ve Aleyküm selam, Canım İyi Günler :)');
-  }
-})
+
 
 
 
@@ -169,17 +165,9 @@ client.on('message', msg => {
 
 
 
-client.on('message', msg => {
-  if (msg.content.toLowerCase() === 'civciv') {
-    msg.reply('https://cdn.discordapp.com/attachments/496730252655984650/500726459518812160/image0.jpg :)');
-  }
-})
 
-client.on('message', msg => {
-  if (msg.content.toLowerCase() === 'iyi geceler') {
-    msg.reply('Sanada İyi Geceler. Tatlı Rüyalar :)');
-  }
-});
+
+
 
 client.on("message", async message => {
   var user = message.mentions.users.first() || message.author;
