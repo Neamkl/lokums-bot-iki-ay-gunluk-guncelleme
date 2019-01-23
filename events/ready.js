@@ -15,7 +15,6 @@ module.exports = client => {
 };
 
 
-bot.channels.get("536578880824279050").fetchMessage("537644597090975747")
 
 
 
