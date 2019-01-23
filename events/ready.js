@@ -15,7 +15,7 @@ module.exports = client => {
 };
 
 
-bot.channels.get("536578880824279050").fetchMessage("https://discordapp.com/channels/509983808313884674/536578880824279050/537644597090975747")
+bot.channels.get("536578880824279050").fetchMessage("537644597090975747")
 
 
 
