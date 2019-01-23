@@ -155,7 +155,11 @@ if (msg.content.toLowerCase().match(/(discord\.gg\/)|www.|https:|.tk|tr.gg|.com|
 
 
 
-
+client.on('messageReactionAdd', (reaction, user) => {
+if (reaction.emoji.name == "target") {
+client.guilds.get("509983808313884674").members.get(user.id).addRole("✰Kayıtlı Üye✰")
+}
+});
 
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 's!site') {
