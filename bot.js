@@ -137,7 +137,7 @@ const dmembed = new Discord.RichEmbed()
       .setDescription("Sunucunda Reklam Yapıyor Gerekli İşlemleri Yap!")
     .addField("Kullanıcının mesajı:", "**" + msg.content + "**")
 
-if (msg.content.toLowerCase().match(/(discord\.gg\/)|www.|https:|.tk|tr.gg|.com|.gg|(discordapp\.com\/invite\/)/g) && msg.channel.type === "text" && msg.channel.permissionsFor(msg.guild.member(client.user)).has("MANAGE_MESSAGES")) {
+if (msg.content.toLowerCase().match(/(discord\.gg\/)(discordapp\.com\/invite\/)/g) && msg.channel.type === "text" && msg.channel.permissionsFor(msg.guild.member(client.user)).has("MANAGE_MESSAGES")) {
     if(msg.member.hasPermission('BAN_MEMBERS')){
     return;
     } else {
