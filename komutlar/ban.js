@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 exports.run = (client, message, args) => {
-  if (!message.member.hasPermission("SEND_MESSAGE")) return message.reply('Bunun için gerekli iznin yok');
+  if (!message.member.hasPermission("BAN_MEMBERS")) return message.reply('Bunun için gerekli iznin yok');
   if (!message.guild) {
   const ozelmesajuyari = new Discord.RichEmbed()
   .setColor(0xFF0000)
@@ -38,5 +38,5 @@ exports.conf = {
 exports.help = {
   name: 'ban',
   description: 'İstediğiniz kişiyi sunucudan yasaklar.',
-  usage: 'ultramegaban [kullanıcı] [sebep]'
+  usage: 'ban [kullanıcı] [sebep]'
 };
