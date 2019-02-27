@@ -126,6 +126,433 @@ client.on('message', msg => {
 });
 
 
+////O
+client.on('ready', async message => {
+   ipanel1();
+ })
+client.on('ready', async message => {
+   panel1();
+
+})
+function panel1() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`⚫️⚫️⚫️⚫️⚫️⚫️⚫️⚫️`);
+            panel2();
+        }, 1000);
+      });
+}
+
+  function panel2() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`🔵⚫️⚫️⚫️⚫️⚫️⚫️⚫️`);
+            panel3();
+        }, 1000);
+      });
+  }
+  function panel3() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`🔵🔵⚫️⚫️⚫️⚫️⚫️⚫️`);
+            panel4();
+        }, 1000);
+      });
+  }
+  function panel4() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`🔵🔵🔵⚫️⚫️⚫️⚫️⚫️`);
+            panel5();
+        }, 1000);
+      });
+  }
+  function panel5() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`⚫️🔵🔵🔵⚫️⚫️⚫️⚫️`);
+            panel6();
+        }, 1000);
+      });
+  }
+  function panel6() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`⚫️⚫️🔵🔵🔵⚫️⚫️⚫️`);
+            panel7();
+        }, 1000);
+      });
+  }
+  function panel7() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`⚫️⚫️⚫️🔵🔵🔵⚫️⚫️`);
+            panel8();
+        }, 1000);
+      });
+  }
+  function panel8() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`⚫️⚫️⚫️⚫️🔵🔵🔵⚫️`);
+            panel9();
+        }, 1000);
+      });
+  }
+  function panel9() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`⚫️⚫️⚫️⚫️⚫��🔵🔵🔵`);
+            panel10();
+        }, 1000);
+      });
+  }
+  function panel10() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`⚫️⚫️⚫️⚫️⚫️⚫️🔵🔵`);
+            panel11();
+        }, 1000);
+      });
+  }
+  function panel11() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`⚫️⚫️⚫️⚫️⚫️⚫️⚫️🔵`);
+            panela();
+        }, 1000);
+      });
+  }
+function panela() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`⚫️⚫️⚫️⚫️⚫️⚫️⚫️⚫️`);
+            panel12();
+        }, 1000);
+      });
+}
+function panel12() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`⚫️⚫️⚫️🔵🔵⚫️⚫️⚫️`);
+            panel14();
+        }, 1000);
+      });
+}
+function panel14() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`⚫️⚫️🔵🔵🔵🔵⚫️⚫️`);
+            panel15();
+        }, 1000);
+      });
+}
+function panel15() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`🔵🔵🔵🔵🔵🔵🔵🔵`);
+            panel16();
+        }, 1000);
+      });
+}
+function panel16() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`🔵🔵🔵⚫️⚫️🔵🔵🔵`);
+            panel17();
+        }, 1000);
+      });
+}
+function panel17() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`🔵🔵⚫️⚫️⚫️⚫️🔵🔵`);
+            panel18();
+        }, 1000);
+      });
+}
+function panel18() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`🔵⚫️⚫️⚫️⚫️⚫️⚫️🔵`);
+            panel1();
+        }, 1000);
+      });
+}
+
+function bpanel1() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`⚫️⚫️⚫️⚫️⚫️⚫️⚫️⚫️`);
+            bpanel2();
+        }, 1000);
+      });
+}
+
+  function bpanel2() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`🔵⚫️⚫️⚫️⚫️⚫️⚫️⚫️`);
+            bpanel3();
+        }, 1000);
+      });
+  }
+  function bpanel3() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`🔵🔵⚫️⚫️⚫️⚫️⚫️⚫️`);
+            bpanel4();
+        }, 1000);
+      });
+  }
+  function bpanel4() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`🔵🔵🔵⚫️⚫️⚫️⚫️⚫️`);
+            bpanel5();
+        }, 1000);
+      });
+  }
+  function bpanel5() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`⚫️🔵🔵🔵⚫️⚫️⚫️⚫️`);
+            bpanel6();
+        }, 1000);
+      });
+  }
+  function bpanel6() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`⚫️⚫️🔵🔵🔵⚫️⚫️⚫️`);
+            bpanel7();
+        }, 1000);
+      });
+  }
+  function bpanel7() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`⚫️⚫️⚫️🔵🔵🔵⚫️⚫️`);
+            bpanel8();
+        }, 1000);
+      });
+  }
+  function bpanel8() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`⚫️⚫️⚫️⚫️🔵🔵🔵⚫️`);
+            bpanel9();
+        }, 1000);
+      });
+  }
+  function bpanel9() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`⚫️⚫️⚫️⚫️⚫️🔵🔵🔵`);
+            bpanel10();
+        }, 1000);
+      });
+  }
+  function bpanel10() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`⚫️⚫️⚫️⚫️⚫️⚫️🔵🔵`);
+            bpanel11();
+        }, 1000);
+      });
+  }
+  function bpanel11() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`⚫️⚫️⚫️⚫️⚫️⚫️⚫️🔵`);
+            bpanela();
+        }, 1000);
+      });
+  }
+function bpanela() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`⚫️⚫️⚫️⚫️⚫️⚫️⚫️⚫️`);
+            bpanel12();
+        }, 1000);
+      });
+}
+function bpanel12() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`⚫️⚫️⚫️🔵🔵⚫️⚫️⚫️`);
+            bpanel14();
+        }, 1000);
+      });
+}
+function bpanel14() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`⚫️⚫️🔵🔵🔵🔵⚫️⚫️`);
+            bpanel15();
+        }, 1000);
+      });
+}
+function bpanel15() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+           client.channels.get(`550250704120315914`).setName(`🔵🔵🔵🔵🔵🔵🔵🔵`);
+            bpanel16();
+        }, 1000);
+      });
+}
+function bpanel16() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`🔵🔵🔵⚫️⚫️🔵🔵🔵`);
+            bpanel17();
+        }, 1000);
+      });
+}
+function bpanel17() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`🔵🔵⚫️⚫️⚫️⚫️🔵🔵`);
+            bpanel18();
+        }, 1000);
+      });
+}
+function bpanel18() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`🔵⚫️⚫️⚫️⚫️⚫️⚫️🔵`);
+            bpanel1();
+        }, 1000);
+      });
+}
+ client.on('ready', async message => {
+   bpanel1();
+
+})
+
+function cpanel1() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`KEYİFLİ SOHBETLER`);
+            cpanel2();
+        }, 10000);
+      });
+}
+
+  function cpanel2() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`DİLERİZ`);
+            cpanel3();
+        }, 10000);
+      });
+  }
+  function cpanel3() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`LokumS `);
+            cpanel4();
+        }, 10000);
+      });
+  }
+  function cpanel4() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`SUNUCUNA EKLEMEYİ UNUTMA!`);
+            cpanel5();
+        }, 10000);
+      });
+  }
+  function cpanel5() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`LokumS BOT DESTEK`);
+            cpanel6();
+        }, 10000);
+      });
+  }
+  function cpanel6() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`YETKİLİ = MrAngelDeath`);
+            cpanel7();
+        }, 10000);
+      });
+  }
+  function cpanel7() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`PREFİX [s!]`);
+            cpanel8();
+        }, 10000);
+      });
+  }
+  function cpanel8() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`EĞLENCELİ SOHBETLER`);
+            cpanel9();
+        }, 10000);
+      });
+  }
+  function cpanel9() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`DİLERİZ`);
+            cpanel10();
+        }, 10000);
+      });
+  }
+  function cpanel10() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`LokumS BOT DESTEK SUNUCUSU`);
+            cpanel11();
+        }, 10000);
+      });
+  }
+  function cpanel11() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`RESMİ SUNUCUSU`);
+            cpanel1();
+        }, 10000);
+      });
+  }
+ client.on('ready', async message => {
+   cpanel1();
+ })
+
+function ipanel1() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`SUNUCU: ${client.guilds.size}`);
+            ipanel2();
+        }, 6000);
+      });
+}
+
+function ipanel2() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`KULLANICI: ${client.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString() }`);
+            ipanel3();
+        }, 6000);
+      });
+}
+
+function ipanel3() {
+    return new Promise(resolve => {
+        setTimeout(() => {
+            client.channels.get(`550250704120315914`).setName(`KANAL: ${client.channels.size}`);
+            ipanel1();
+        }, 6000);
+      });
+}
+   
+////////
+
+
 client.on("message", msg => {
     const uyarıembed = new Discord.RichEmbed()
       .setColor(0x00AE86)
