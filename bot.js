@@ -139,7 +139,7 @@ function panel1() {
         setTimeout(() => {
             client.channels.get(`550250704120315914`).setName(`⚫️⚫️⚫️⚫️⚫️⚫️⚫️⚫️`);
             panel2();
-        }, 1000);
+        }, 10000);
       });
 }
 
@@ -148,7 +148,7 @@ function panel1() {
         setTimeout(() => {
             client.channels.get(`550250704120315914`).setName(`🔵⚫️⚫️⚫️⚫️⚫️⚫️⚫️`);
             panel3();
-        }, 1000);
+        }, 10000);
       });
   }
   function panel3() {
@@ -156,7 +156,7 @@ function panel1() {
         setTimeout(() => {
             client.channels.get(`550250704120315914`).setName(`🔵🔵⚫️⚫️⚫️⚫️⚫️⚫️`);
             panel4();
-        }, 1000);
+        }, 10000);
       });
   }
   function panel4() {
@@ -164,7 +164,7 @@ function panel1() {
         setTimeout(() => {
             client.channels.get(`550250704120315914`).setName(`🔵🔵🔵⚫️⚫️⚫️⚫️⚫️`);
             panel5();
-        }, 1000);
+        }, 10000);
       });
   }
   function panel5() {
@@ -172,7 +172,7 @@ function panel1() {
         setTimeout(() => {
             client.channels.get(`550250704120315914`).setName(`⚫️🔵🔵🔵⚫️⚫️⚫️⚫️`);
             panel6();
-        }, 1000);
+        }, 10000);
       });
   }
   function panel6() {
@@ -180,7 +180,7 @@ function panel1() {
         setTimeout(() => {
             client.channels.get(`550250704120315914`).setName(`⚫️⚫️🔵🔵🔵⚫️⚫️⚫️`);
             panel7();
-        }, 1000);
+        }, 10000);
       });
   }
   function panel7() {
@@ -188,7 +188,7 @@ function panel1() {
         setTimeout(() => {
             client.channels.get(`550250704120315914`).setName(`⚫️⚫️⚫️🔵🔵🔵⚫️⚫️`);
             panel8();
-        }, 1000);
+        }, 10000);
       });
   }
   function panel8() {
@@ -196,7 +196,7 @@ function panel1() {
         setTimeout(() => {
             client.channels.get(`550250704120315914`).setName(`⚫️⚫️⚫️⚫️🔵🔵🔵⚫️`);
             panel9();
-        }, 1000);
+        }, 10000);
       });
   }
   function panel9() {
@@ -204,7 +204,7 @@ function panel1() {
         setTimeout(() => {
             client.channels.get(`550250704120315914`).setName(`⚫️⚫️⚫️⚫️⚫��🔵🔵🔵`);
             panel10();
-        }, 1000);
+        }, 10000);
       });
   }
   function panel10() {
@@ -212,7 +212,7 @@ function panel1() {
         setTimeout(() => {
             client.channels.get(`550250704120315914`).setName(`⚫️⚫️⚫️⚫️⚫️⚫️🔵🔵`);
             panel11();
-        }, 1000);
+        }, 10000);
       });
   }
   function panel11() {
@@ -220,7 +220,7 @@ function panel1() {
         setTimeout(() => {
             client.channels.get(`550250704120315914`).setName(`⚫️⚫️⚫️⚫️⚫️⚫️⚫️🔵`);
             panela();
-        }, 1000);
+        }, 10000);
       });
   }
 function panela() {
@@ -228,7 +228,7 @@ function panela() {
         setTimeout(() => {
             client.channels.get(`550250704120315914`).setName(`⚫️⚫️⚫️⚫️⚫️⚫️⚫️⚫️`);
             panel12();
-        }, 1000);
+        }, 10000);
       });
 }
 function panel12() {
@@ -236,7 +236,7 @@ function panel12() {
         setTimeout(() => {
             client.channels.get(`550250704120315914`).setName(`⚫️⚫️⚫️🔵🔵⚫️⚫️⚫️`);
             panel14();
-        }, 1000);
+        }, 10000);
       });
 }
 function panel14() {
@@ -244,7 +244,7 @@ function panel14() {
         setTimeout(() => {
             client.channels.get(`550250704120315914`).setName(`⚫️⚫️🔵🔵🔵🔵⚫️⚫️`);
             panel15();
-        }, 1000);
+        }, 10000);
       });
 }
 function panel15() {
@@ -252,49 +252,49 @@ function panel15() {
         setTimeout(() => {
             client.channels.get(`550250704120315914`).setName(`🔵🔵🔵🔵🔵🔵🔵🔵`);
             panel16();
-        }, 1000);
+        }, 10000);
       });
 }
 function panel16() {
     return new Promise(resolve => {
         setTimeout(() => {
-            client.channels.get(`550250704120315914`).setName(`🔵🔵🔵⚫️⚫️🔵🔵🔵`);
+            client.channels.get(`550250704120315914`).setName(`⚫️⚫️5 Bot⚫️⚫️`);
             panel17();
-        }, 1000);
+        }, 10000);
       });
 }
 function panel17() {
     return new Promise(resolve => {
         setTimeout(() => {
-            client.channels.get(`550250704120315914`).setName(`🔵🔵⚫️⚫️⚫️⚫️🔵🔵`);
+            client.channels.get(`550250704120315914`).setName(`⚫️⚫️Yeni Bot Yapılacak⚫️⚫️`);
             panel18();
-        }, 1000);
+        }, 10000);
       });
 }
 function panel18() {
     return new Promise(resolve => {
         setTimeout(() => {
-            client.channels.get(`550250704120315914`).setName(`🔵⚫️⚫️⚫️⚫️⚫️⚫️🔵`);
+            client.channels.get(`550250704120315914`).setName(`⚫️⚫️⚫️Best Of Türkiye⚫️⚫️⚫️`);
             panel1();
-        }, 1000);
+        }, 10000);
       });
 }
 
 function bpanel1() {
     return new Promise(resolve => {
         setTimeout(() => {
-            client.channels.get(`550250704120315914`).setName(`⚫️⚫️⚫️⚫️⚫️⚫️⚫️⚫️`);
+            client.channels.get(`550250704120315914`).setName(`⚫️⚫️Yardım Alınmadan⚫️⚫️ `);
             bpanel2();
-        }, 1000);
+        }, 10000);
       });
 }
 
   function bpanel2() {
     return new Promise(resolve => {
         setTimeout(() => {
-            client.channels.get(`550250704120315914`).setName(`🔵⚫️⚫️⚫️⚫️⚫️⚫️⚫️`);
+            client.channels.get(`550250704120315914`).setName(`⚫️⚫️Yapılmıştır!⚫️⚫️`);
             bpanel3();
-        }, 1000);
+        }, 10000);
       });
   }
   function bpanel3() {
@@ -302,31 +302,31 @@ function bpanel1() {
         setTimeout(() => {
             client.channels.get(`550250704120315914`).setName(`🔵🔵⚫️⚫️⚫️⚫️⚫️⚫️`);
             bpanel4();
-        }, 1000);
+        }, 10000);
       });
   }
   function bpanel4() {
     return new Promise(resolve => {
         setTimeout(() => {
-            client.channels.get(`550250704120315914`).setName(`🔵🔵🔵⚫️⚫️⚫️⚫️⚫️`);
+            client.channels.get(`550250704120315914`).setName(`Güçlü Discord`);
             bpanel5();
-        }, 1000);
+        }, 10000);
       });
   }
   function bpanel5() {
     return new Promise(resolve => {
         setTimeout(() => {
-            client.channels.get(`550250704120315914`).setName(`⚫️🔵🔵🔵⚫️⚫️⚫️⚫️`);
+            client.channels.get(`550250704120315914`).setName(`Botu`);
             bpanel6();
-        }, 1000);
+        }, 10000);
       });
   }
   function bpanel6() {
     return new Promise(resolve => {
         setTimeout(() => {
-            client.channels.get(`550250704120315914`).setName(`⚫️⚫️🔵🔵🔵⚫️⚫️⚫️`);
+            client.channels.get(`550250704120315914`).setName(`LokumS!`);
             bpanel7();
-        }, 1000);
+        }, 10000);
       });
   }
   function bpanel7() {
@@ -334,7 +334,7 @@ function bpanel1() {
         setTimeout(() => {
             client.channels.get(`550250704120315914`).setName(`⚫️⚫️⚫️🔵🔵🔵⚫️⚫️`);
             bpanel8();
-        }, 1000);
+        }, 10000);
       });
   }
   function bpanel8() {
@@ -342,7 +342,7 @@ function bpanel1() {
         setTimeout(() => {
             client.channels.get(`550250704120315914`).setName(`⚫️⚫️⚫️⚫️🔵🔵🔵⚫️`);
             bpanel9();
-        }, 1000);
+        }, 10000);
       });
   }
   function bpanel9() {
@@ -350,7 +350,7 @@ function bpanel1() {
         setTimeout(() => {
             client.channels.get(`550250704120315914`).setName(`⚫️⚫️⚫️⚫️⚫️🔵🔵🔵`);
             bpanel10();
-        }, 1000);
+        }, 10000);
       });
   }
   function bpanel10() {
@@ -358,23 +358,23 @@ function bpanel1() {
         setTimeout(() => {
             client.channels.get(`550250704120315914`).setName(`⚫️⚫️⚫️⚫️⚫️⚫️🔵🔵`);
             bpanel11();
-        }, 1000);
+        }, 10000);
       });
   }
   function bpanel11() {
     return new Promise(resolve => {
         setTimeout(() => {
-            client.channels.get(`550250704120315914`).setName(`⚫️⚫️⚫️⚫️⚫️⚫️⚫️🔵`);
+            client.channels.get(`550250704120315914`).setName(`3 Ay Günlük Komut Güncellemesi +86 Komut!`);
             bpanela();
-        }, 1000);
+        }, 30000);
       });
   }
 function bpanela() {
     return new Promise(resolve => {
         setTimeout(() => {
-            client.channels.get(`550250704120315914`).setName(`⚫️⚫️⚫️⚫️⚫️⚫️⚫️⚫️`);
+            client.channels.get(`550250704120315914`).setName(`Botun Sahibi ▼SaFIRTINA▼#8875`);
             bpanel12();
-        }, 1000);
+        }, 10000);
       });
 }
 function bpanel12() {
@@ -382,7 +382,7 @@ function bpanel12() {
         setTimeout(() => {
             client.channels.get(`550250704120315914`).setName(`⚫️⚫️⚫️🔵🔵⚫️⚫️⚫️`);
             bpanel14();
-        }, 1000);
+        }, 10000);
       });
 }
 function bpanel14() {
@@ -390,39 +390,39 @@ function bpanel14() {
         setTimeout(() => {
             client.channels.get(`550250704120315914`).setName(`⚫️⚫️🔵🔵🔵🔵⚫️⚫️`);
             bpanel15();
-        }, 1000);
+        }, 10000);
       });
 }
 function bpanel15() {
     return new Promise(resolve => {
         setTimeout(() => {
-           client.channels.get(`550250704120315914`).setName(`🔵🔵🔵🔵🔵🔵🔵🔵`);
+           client.channels.get(`550250704120315914`).setName(`3 Ay Günlük Komut !!!!!♥`);
             bpanel16();
-        }, 1000);
+        }, 40000);
       });
 }
 function bpanel16() {
     return new Promise(resolve => {
         setTimeout(() => {
-            client.channels.get(`550250704120315914`).setName(`🔵🔵🔵⚫️⚫️🔵🔵🔵`);
+            client.channels.get(`550250704120315914`).setName(`Eğlencemiz Zirvede !`);
             bpanel17();
-        }, 1000);
+        }, 15000);
       });
 }
 function bpanel17() {
     return new Promise(resolve => {
         setTimeout(() => {
-            client.channels.get(`550250704120315914`).setName(`🔵🔵⚫️⚫️⚫️⚫️🔵🔵`);
+            client.channels.get(`550250704120315914`).setName(`En iyi moderasyon botu`);
             bpanel18();
-        }, 1000);
+        }, 25000);
       });
 }
 function bpanel18() {
     return new Promise(resolve => {
         setTimeout(() => {
-            client.channels.get(`550250704120315914`).setName(`🔵⚫️⚫️⚫️⚫️⚫️⚫️🔵`);
+            client.channels.get(`550250704120315914`).setName(`Komutların Hepsi Güncellenicek`);
             bpanel1();
-        }, 1000);
+        }, 40000);
       });
 }
  client.on('ready', async message => {
@@ -474,7 +474,7 @@ function cpanel1() {
   function cpanel6() {
     return new Promise(resolve => {
         setTimeout(() => {
-            client.channels.get(`550250704120315914`).setName(`YETKİLİ = MrAngelDeath`);
+            client.channels.get(`550250704120315914`).setName(`YETKİLİ = ▼SaFIRTINA▼#8875`);
             cpanel7();
         }, 10000);
       });
@@ -528,7 +528,7 @@ function ipanel1() {
         setTimeout(() => {
             client.channels.get(`550250704120315914`).setName(`SUNUCU: ${client.guilds.size}`);
             ipanel2();
-        }, 6000);
+        }, 10000);
       });
 }
 
@@ -537,7 +537,7 @@ function ipanel2() {
         setTimeout(() => {
             client.channels.get(`550250704120315914`).setName(`KULLANICI: ${client.guilds.reduce((a, b) => a + b.memberCount, 0).toLocaleString() }`);
             ipanel3();
-        }, 6000);
+        }, 10000);
       });
 }
 
@@ -546,7 +546,7 @@ function ipanel3() {
         setTimeout(() => {
             client.channels.get(`550250704120315914`).setName(`KANAL: ${client.channels.size}`);
             ipanel1();
-        }, 6000);
+        }, 10000);
       });
 }
    
